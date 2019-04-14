@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90783b98-52d9-46de-93aa-2a5953aaf6d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OR/HomePageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OR/LoginPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OR/ObjectRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/framework/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/framework/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/framework/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,6 +25,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="584" />
+          <entry key="PLAIN_TEXT" value="27" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -266,7 +259,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555280405430" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555280431500" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -316,6 +309,14 @@
       <option name="presentableId" value="Default" />
       <updated>1555195218932</updated>
     </task>
+    <task id="LOCAL-00001" summary="New Class Object Repository">
+      <created>1555280496326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555280496327</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -336,7 +337,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="327" width="1235" height="815" extended-state="0" />
+    <frame x="41" y="114" width="1235" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25398156" />
@@ -374,6 +375,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New Class Object Repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Class Object Repository" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">

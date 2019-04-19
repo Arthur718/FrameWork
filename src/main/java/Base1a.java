@@ -6,10 +6,11 @@ import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Base {
+public class Base1a {
 
     public WebDriver driver = null;
-
+    protected HomePage homePage= null;
+    protected LoginPage loginPage= null;
 
     @BeforeClass
     public static void beforeClass(){
@@ -32,7 +33,8 @@ public class Base {
     public void setDriver() {
         //ChromeDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-
+        homePage= new HomePage(driver);
+        loginPage= new  LoginPage(driver);
         driver.get("http://spree.shiftedtech.com/");
 
 
@@ -65,10 +67,6 @@ public class Base {
     }
 
 
+
+
 }
-
-
-
-
-
-

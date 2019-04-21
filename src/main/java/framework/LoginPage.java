@@ -26,6 +26,6 @@ public class LoginPage extends PageBase {
         WebElement loginButton = objectRepo.loginPage().loginButton();
         //WebElement loginButton = loginPage().loginButton();
         loginButton.click();
-
+        delay(2000);
     }
 }

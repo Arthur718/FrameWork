@@ -21,8 +21,8 @@ public class Test2 extends Base2{
         public void test2() {
             browserToUrl("http://spree.shiftedtech.com/");
             click(OR.get("HomePage.Loginlink"));
-            inputText(OR.get("LoginPage.EmailTextbox"), "shiftqa01@gmail.com");
-            inputText(OR.get("LoginPage.PasswordTextbox"), "shiftedtech");
+            inputText(OR.get("LoginPage.EmailTextbox"), "arthur7777@gmail.com");
+            inputText(OR.get("LoginPage.PasswordTextbox"), "123456");
             click(OR.get("LoginPage.LoginButton"));
             delayFor(2000);
             verifyText(OR.get("HomePage.SuccessMessage"), "Logged in successfully");

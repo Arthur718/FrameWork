@@ -7,13 +7,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import utils.ExelObjectRepositoryManager;
 import utils.ObjectRepositoryReaderManager;
 
 public class Base2  implements IHomePageOr, ILoginPageOR
 {protected WebDriver driver = null;
-    protected ObjectRepositoryReaderManager OR  = ObjectRepositoryReaderManager.getInstance();
+   // protected ObjectRepositoryReaderManager OR  = ObjectRepositoryReaderManager.getInstance();
    // protected ExcelObjectRepositoryManager  or = ExcelObjectRepositoryManager.getInstance();
-
+   protected ExelObjectRepositoryManager OR = ExelObjectRepositoryManager.getInstance();
 
     @Before
     public void setUp() {

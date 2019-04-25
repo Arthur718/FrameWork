@@ -4,6 +4,8 @@ public class OR {
   public class HomePage {
       public static final String Loginlink = "xpath://li[@id='link-to-login']/a";
       public static final String SuccessMessage = "css:.alert-success";
+     // public static final  String LogoutSuccess = "linkText:Logout";
+
   }
 
 public class LoginPage{

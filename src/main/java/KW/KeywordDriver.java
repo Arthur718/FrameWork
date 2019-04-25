@@ -18,10 +18,34 @@ public class KeywordDriver {
 
     }
 
-    public void loadScript(){
+    public void runScript(String scriptName ){
         ExcelReader reader= new ExcelReader(scriptFile);
 
-        String[][] exelData = reader.getExcelSheetData("TC001",true);
+        String[][] exelData = reader.getExcelSheetData(scriptName,true);
+        for (int i=0;i<exelData.length;i++){
+            String steps = exelData[i][0];
+            String keyword= exelData[i][1];
+            String locator =exelData[i][2];
+            String data = exelData[i][3];
+            System.out.println("Step:" +steps+ "Keyword:" +keyword+ "Locaror:" +locator+ "Data:" +data);
+            //System.out.println("Process Keyword.....");
+            processKeywordStep(steps,keyword,locator,data);
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+    public void runScript(int scriptIndex){
+        ExcelReader reader= new ExcelReader(scriptFile);
+
+        String[][] exelData = reader.getExcelSheetData(scriptIndex,true);
         for (int i=0;i<exelData.length;i++){
             String steps = exelData[i][0];
             String keyword= exelData[i][1];
@@ -50,6 +74,8 @@ public class KeywordDriver {
         else if (keyword.equalsIgnoreCase("verifyText")){
             keywordLibery.verifyText(or.get(locator),data);
         }
+
+
         else {
             System.out.println("********* Unknown keyword ******" );
         }

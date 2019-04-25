@@ -19,4 +19,10 @@ public class HomePageObject extends PageObjectBase {
         return alertMsg;
 
     }
+    /*public WebElement logOut(){
+        WebElement logOutbutton = driver.findElement(By.linkText("Logout"));
+        return logOutbutton;
+
+    }*/
+
 }

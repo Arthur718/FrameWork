@@ -24,5 +24,8 @@ public class HomePageObject extends PageObjectBase {
         return logOutbutton;
 
     }*/
-
+   public  WebElement ErrorMessage(){
+       WebElement ErrMsg = driver.findElement(By.xpath("//div[@class='alert alert-error']"));
+       return ErrMsg;
+   }
 }

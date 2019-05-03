@@ -25,7 +25,22 @@ public class HomePage extends PageBase {
         String mString = alertMsg.getText();
         Assert.assertEquals("Logged in successfully", mString);
     }
-   ///public void verifyLoginError(){
+   public void verifyErrorlogin(){
+
+        WebElement ErrMsg = objectRepo.homePage().ErrorMessage();
+        String eString = ErrMsg.getText();
+        Assert.assertEquals("Invalid email or password.",eString);
+
+
+   }
+
+
+
+
+
+
+
+    ///public void verifyLoginError(){
      ///   WebElement errorMsg = objectRepo.homePage().Errormessage();
       ///  String err
 

@@ -15,27 +15,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class StepDef1 {
-
-     private WebDriver driver;
-
-   @Before
-    public void setUP(){
-
-        System.setProperty("webdriver.chrome.driver",
-                System.getProperty("user.dir") +"/driver/chromedriver");
+public class StepDef1 extends StepBase {
 
 
-
-        //ChromeDriverManager.chromedriver().setup();
-        driver= new ChromeDriver();}
-
-   @After
-   public void  tearDown(){
-
-       driver.close();
-       driver.quit();
-   }
 
 
 

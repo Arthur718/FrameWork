@@ -31,7 +31,8 @@
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>3.0.0</version>
+            <version>3.5.0</version>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
@@ -89,7 +90,22 @@
             <version>${kotlin.version}</version>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>20030203.000550</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.temyers</groupId>
+            <artifactId>cucumber-jvm-parallel-plugin</artifactId>
+            <version>4.2.0</version>
+        </dependency>
 
     </dependencies>
 

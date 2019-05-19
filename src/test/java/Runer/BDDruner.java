@@ -8,8 +8,22 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         //dryRun = true,
         features = "/Users/arthur/arthur718/src/test/Res/CucomOne",
-        glue = {"StepDef"}
-)
+        glue = {"StepDef"},
+
+
+        plugin={
+        "pretty:target/cucumber-test-report/cucumber-pretty.txt",
+        "html:target/cucumber-test-report",
+        "json:target/cucumber-test-report/cucumber-report.json",
+        "junit:target/cucumber-test-report/test-report.xml"
+}
+
+
+
+
+
+        )
+
 
 
 

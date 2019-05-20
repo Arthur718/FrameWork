@@ -15,7 +15,10 @@ public class Base1a {
 
     @BeforeClass
     public static void beforeClass(){
-       // System.setProperty("webdriver.chrome.driver",
+
+        ChromeDriverManager.chromedriver().setup();
+
+        // System.setProperty("webdriver.chrome.driver",
                 //System.getProperty("user.dir") +"/driver/chromedriver");
 
     }
@@ -32,7 +35,7 @@ public class Base1a {
 
 
     public void setDriver() {
-        ChromeDriverManager.chromedriver().setup();
+        //ChromeDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         homePage= new HomePage(driver);
         loginPage= new  LoginPage(driver);

@@ -1,5 +1,3 @@
-import framework.HomePage;
-import framework.LoginPage;
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.junit.After;
 import org.junit.Before;

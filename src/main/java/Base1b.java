@@ -1,6 +1,7 @@
 import framework.AplicationControler;
 import framework.HomePage;
 import framework.LoginPage;
+import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -14,8 +15,8 @@ public class Base1b {
 
     @BeforeClass
     public static void beforeClass(){
-        System.setProperty("webdriver.chrome.driver",
-                System.getProperty("user.dir") +"/driver/chromedriver");
+        //System.setProperty("webdriver.chrome.driver",
+                //System.getProperty("user.dir") +"/driver/chromedriver");
 
     }
 
@@ -31,7 +32,7 @@ public class Base1b {
 
 
     public void setDriver() {
-        //ChromeDriverManager.chromedriver().setup();
+        ChromeDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         spree = new AplicationControler(driver);
         driver.get("http://spree.shiftedtech.com/");

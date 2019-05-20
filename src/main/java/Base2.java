@@ -1,5 +1,6 @@
 import in.or.IHomePageOr;
 import in.or.ILoginPageOR;
+import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -18,10 +19,11 @@ public class Base2  implements IHomePageOr, ILoginPageOR
 
     @Before
     public void setUp() {
-        //ChromeDriverManager.chromedriver().setup();
 
-        System.setProperty("webdriver.chrome.driver",
-                System.getProperty("user.dir") +"/driver/chromedriver");
+        ChromeDriverManager.chromedriver().setup();
+
+        //System.setProperty("webdriver.chrome.driver",
+               // System.getProperty("user.dir") +"/driver/chromedriver");
 
 
         driver = new ChromeDriver();

@@ -1,5 +1,6 @@
 import framework.HomePage;
 import framework.LoginPage;
+import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -13,8 +14,12 @@ public class Base {
 
     @BeforeClass
     public static void beforeClass(){
-        System.setProperty("webdriver.chrome.driver",
-                System.getProperty("user.dir") +"/driver/chromedriver");
+
+        ChromeDriverManager.chromedriver().setup();
+
+
+       // System.setProperty("webdriver.chrome.driver",
+                //System.getProperty("user.dir") +"/driver/chromedriver");
 
     }
 

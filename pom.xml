@@ -31,12 +31,11 @@
             <version>4.12</version>
 
         </dependency>
-        <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>3.6.0</version>
-            <scope>test</scope>
-        </dependency>
+        <<dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>3.6.0</version>
+    </dependency>
 
         <dependency>
             <groupId>net.sourceforge.jexcelapi</groupId>

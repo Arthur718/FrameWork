@@ -57,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1316">
-              <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+            <state relative-caret-position="111">
+              <caret line="149" column="62" lean-forward="true" selection-start-line="148" selection-start-column="17" selection-end-line="149" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -223,7 +223,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-129" />
+    <option name="x" value="-94" />
     <option name="y" value="23" />
     <option name="width" value="1235" />
     <option name="height" value="877" />
@@ -502,7 +502,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-163" y="476" width="1235" height="877" extended-state="0" />
+    <frame x="-129" y="23" width="1235" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49908593" visible="true" weight="0.49371332" />
@@ -953,8 +953,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1316">
-          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        <state relative-caret-position="111">
+          <caret line="149" column="62" lean-forward="true" selection-start-line="148" selection-start-column="17" selection-end-line="149" selection-end-column="62" />
         </state>
       </provider>
     </entry>

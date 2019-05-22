@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 6340778346,
+  "duration": 4954554636,
   "status": "passed"
 });
 formatter.scenario({
@@ -67,28 +67,28 @@ formatter.match({
   "location": "StepDef1.not_a_validated_user()"
 });
 formatter.result({
-  "duration": 559663627,
+  "duration": 549582553,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef1.user_browse_to_the_site()"
 });
 formatter.result({
-  "duration": 2462412189,
+  "duration": 2297347690,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef1.spree_home_page_should_display()"
 });
 formatter.result({
-  "duration": 25374503,
+  "duration": 35897203,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef1.user_click_login_link()"
 });
 formatter.result({
-  "duration": 2236849163,
+  "duration": 1727716309,
   "status": "passed"
 });
 formatter.match({
@@ -101,7 +101,7 @@ formatter.match({
   "location": "StepDef1.userEnterUserEmailAs(String)"
 });
 formatter.result({
-  "duration": 407437470,
+  "duration": 247295634,
   "status": "passed"
 });
 formatter.match({
@@ -114,32 +114,32 @@ formatter.match({
   "location": "StepDef1.userEnterPasswordAs(String)"
 });
 formatter.result({
-  "duration": 231593848,
+  "duration": 119328170,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef1.user_click_login_button()"
 });
 formatter.result({
-  "duration": 1486125651,
+  "duration": 1661259030,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef1.home_page_should_display()"
 });
 formatter.result({
-  "duration": 15529796,
+  "duration": 16323643,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef1.login_success_message_display()"
 });
 formatter.result({
-  "duration": 97433142,
+  "duration": 60882124,
   "status": "passed"
 });
 formatter.after({
-  "duration": 189235086,
+  "duration": 150300684,
   "status": "passed"
 });
 });

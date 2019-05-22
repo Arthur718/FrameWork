@@ -1,5 +1,3 @@
-import OR.ObjectRepository;
-import in.or.OR;
 import org.junit.Test;
 
 public class Test2 extends Base2{
@@ -52,4 +50,3 @@ public class Test2 extends Base2{
     }
 
     }
-

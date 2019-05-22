@@ -29,6 +29,14 @@
 
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+            <type>maven-plugin</type>
+        </dependency>
+
+
 
         <dependency>
             <groupId>net.sourceforge.jexcelapi</groupId>
@@ -107,12 +115,7 @@
             <version>3.5.0</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>3.5.0</version>
-            <scope>compile</scope>
-        </dependency>
+
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-chrome-driver</artifactId>

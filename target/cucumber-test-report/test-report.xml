@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.694705">
-    <testcase classname="Spree login functionality" name="1.Valid user with valid password" time="15.694705">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.482211">
+    <testcase classname="Spree login functionality" name="1.Valid user with valid password" time="18.482211">
         <system-out>
             <![CDATA[Given Not a validated user..................................................passed
 When User browse to the site................................................passed

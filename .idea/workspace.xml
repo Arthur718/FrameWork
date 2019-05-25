@@ -4,6 +4,9 @@
     <list default="true" id="90783b98-52d9-46de-93aa-2a5953aaf6d0" name="Default Changelist" comment="New Class Object Repository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/cucumber-report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-test-report/cucumber-report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-test-report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/test-report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-test-report/test-report.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="204" column="59" selection-start-line="204" selection-start-column="59" selection-end-line="204" selection-end-column="59" />
+            <state relative-caret-position="131">
+              <caret line="204" column="92" selection-start-line="204" selection-start-column="92" selection-end-line="204" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -111,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Runer/BDDruner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="134">
+              <caret line="9" column="65" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -392,7 +395,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test3.test3">
+  <component name="RunManager" selected="JUnit.BDDruner">
     <configuration name="All Features in: Res" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/Res" />
@@ -476,8 +479,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test3.test3" />
         <item itemvalue="JUnit.BDDruner" />
+        <item itemvalue="JUnit.Test3.test3" />
         <item itemvalue="JUnit.Test1.Test1" />
         <item itemvalue="JUnit.Test2.test1" />
         <item itemvalue="JUnit.Test1b.Test1b" />
@@ -506,9 +509,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test3_test3 - 2019.05.23 at 17h 40m 20s.xml">
-      <configuration name="Test3.test3" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test2_test1 - 2019.05.23 at 17h 50m 26s.xml">
       <configuration name="Test2.test1" configurationId="JUnit" />
     </history-entry>
@@ -535,6 +535,9 @@
     </history-entry>
     <history-entry file="Test3_test3 - 2019.05.24 at 20h 02m 19s.xml">
       <configuration name="Test3.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BDDruner - 2019.05.24 at 20h 21m 58s.xml">
+      <configuration name="BDDruner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
@@ -988,8 +991,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Runer/BDDruner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="134">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -998,8 +1001,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="204" column="59" selection-start-line="204" selection-start-column="59" selection-end-line="204" selection-end-column="59" />
+        <state relative-caret-position="131">
+          <caret line="204" column="92" selection-start-line="204" selection-start-column="92" selection-end-line="204" selection-end-column="92" />
         </state>
       </provider>
     </entry>

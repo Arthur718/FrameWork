@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="90783b98-52d9-46de-93aa-2a5953aaf6d0" name="Default Changelist" comment="New Class Object Repository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/cucumber-pretty.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/cucumber-report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/jquery-1.8.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/test-report.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/cucumber-pretty.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-test-report/cucumber-pretty.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/cucumber-report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-test-report/cucumber-report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-test-report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/test-report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-test-report/test-report.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -118,8 +115,8 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1875">
-              <caret line="125" selection-start-line="119" selection-start-column="1" selection-end-line="125" />
+            <state relative-caret-position="88">
+              <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -141,8 +138,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Runer/BDDruner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="190">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -244,6 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -317,21 +315,12 @@
               <item name="arthur718" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="StepDef" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arthur718" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arthur718" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="Res" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -481,9 +470,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test3_test3 - 2019.05.24 at 20h 02m 19s.xml">
-      <configuration name="Test3.test3" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BDDruner - 2019.05.24 at 20h 21m 58s.xml">
       <configuration name="BDDruner" configurationId="JUnit" />
     </history-entry>
@@ -511,6 +497,9 @@
     <history-entry file="BDDruner - 2019.05.29 at 10h 37m 52s.xml">
       <configuration name="BDDruner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BDDruner - 2019.05.29 at 10h 53m 31s.xml">
+      <configuration name="BDDruner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -523,8 +512,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.26967096" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.2732475" />
       <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" weight="0.6015737" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -536,7 +526,7 @@
       <window_info id="Job Explorer" order="9" sideWeight="0.49908593" weight="0.32904148" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.3923567" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.3923567" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -877,16 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test1b.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -935,14 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="125" selection-start-line="119" selection-start-column="1" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StepDef/StepDef1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -955,10 +927,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Runer/BDDruner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="190">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

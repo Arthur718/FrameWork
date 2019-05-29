@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="90783b98-52d9-46de-93aa-2a5953aaf6d0" name="Default Changelist" comment="New Class Object Repository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/cucumber-pretty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/cucumber-report.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-test-report/test-report.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="345">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -133,7 +141,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Runer/BDDruner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="270">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -473,15 +481,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BDDruner - 2019.05.23 at 18h 42m 01s.xml">
-      <configuration name="BDDruner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BDDruner - 2019.05.24 at 19h 29m 12s.xml">
-      <configuration name="BDDruner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test3_test3 - 2019.05.24 at 19h 54m 46s.xml">
-      <configuration name="Test3.test3" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test3_test3 - 2019.05.24 at 20h 02m 19s.xml">
       <configuration name="Test3.test3" configurationId="JUnit" />
     </history-entry>
@@ -503,6 +502,15 @@
     <history-entry file="Test1_Test1 - 2019.05.26 at 20h 37m 43s.xml">
       <configuration name="Test1.Test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test1_Test1 - 2019.05.27 at 04h 09m 30s.xml">
+      <configuration name="Test1.Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BDDruner - 2019.05.27 at 04h 10m 49s.xml">
+      <configuration name="BDDruner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BDDruner - 2019.05.29 at 10h 37m 52s.xml">
+      <configuration name="BDDruner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -515,9 +523,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.26609442" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.26967096" />
       <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" weight="0.6015737" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -529,7 +536,7 @@
       <window_info id="Job Explorer" order="9" sideWeight="0.49908593" weight="0.32904148" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.3923567" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.3923567" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -872,7 +879,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="345">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -950,7 +957,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Runer/BDDruner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="270">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />

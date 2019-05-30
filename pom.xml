@@ -254,6 +254,7 @@
             -->
 
             <!-- Cucumber reporting -->
+           <!--
             <plugin>
                 <groupId>com.trivago.rta</groupId>
                 <artifactId>cluecumber-report-plugin</artifactId>
@@ -273,7 +274,9 @@
                     </generatedHtmlReportDirectory>
                 </configuration>
             </plugin>
+          -->
         </plugins>
+
 
 
     </build>

@@ -251,7 +251,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
-            -->
+
 
             <!-- Cucumber reporting -->
            <!--

@@ -239,7 +239,7 @@
                 </configuration>
             </plugin>
 
-            <!--
+
              <plugin>
                  <groupId>org.apache.maven.plugins</groupId>
                  <artifactId>maven-surefire-plugin</artifactId>
@@ -251,34 +251,35 @@
                      <testFailureIgnore>true</testFailureIgnore>
                  </configuration>
              </plugin>
-              -->
+          
 
              <!-- Cucumber reporting -->
+            <!--
+           <plugin>
+               <groupId>com.trivago.rta</groupId>
+               <artifactId>cluecumber-report-plugin</artifactId>
+               <version>1.3.0</version>
+               <executions>
+                   <execution>
+                       <id>report</id>
+                       <phase>verify</phase>
+                       <goals>
+                           <goal>parallel</goal>
+                       </goals>
+                   </execution>
+               </executions>
+               <configuration>
+                   <sourceJsonReportDirectory>${project.build.directory}/cucumber-parallel</sourceJsonReportDirectory>
+                   <generatedHtmlReportDirectory>${project.build.directory}/cucumber-report
+                   </generatedHtmlReportDirectory>
+               </configuration>
+           </plugin>
+           -->
+       </plugins>
 
-            <plugin>
-                <groupId>com.trivago.rta</groupId>
-                <artifactId>cluecumber-report-plugin</artifactId>
-                <version>1.3.0</version>
-                <executions>
-                    <execution>
-                        <id>report</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>parallel</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <sourceJsonReportDirectory>${project.build.directory}/cucumber-parallel</sourceJsonReportDirectory>
-                    <generatedHtmlReportDirectory>${project.build.directory}/cucumber-report
-                    </generatedHtmlReportDirectory>
-                </configuration>
-            </plugin>
-        </plugins>
 
 
-
-    </build>
+   </build>
 
 
 </project>

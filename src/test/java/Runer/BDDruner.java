@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         //dryRun = true,
-        features = "/Users/arthur/arthur718/src/test/Res/CucomOne",
+        features = "/Users/arthur/arthur718/src/test/Res/Uber",
         glue = {"StepDef"},
 
 

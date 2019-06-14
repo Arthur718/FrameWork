@@ -251,7 +251,7 @@
                      <testFailureIgnore>true</testFailureIgnore>
                  </configuration>
              </plugin>
-          
+
 
              <!-- Cucumber reporting -->
             <!--
@@ -264,7 +264,7 @@
                        <id>report</id>
                        <phase>verify</phase>
                        <goals>
-                           <goal>parallel</goal>
+                           <goal>reporting</goal>
                        </goals>
                    </execution>
                </executions>

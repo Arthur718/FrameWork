@@ -1,145 +1,109 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/arthur/arthur718/src/test/Res/CucomOne");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/arthur/arthur718/src/test/Res/Uber");
 formatter.feature({
-  "line": 3,
-  "name": "Spree login functionality",
-  "description": "This explain how verious login functionality will work\nOnly valid user should be able to login\n1. Valid user with valid password can login\n2. Invalid user or invalid password can not login",
-  "id": "spree-login-functionality",
+  "line": 1,
+  "name": "Explain and Show how Uber WebSite",
+  "description": "cululate a price for a ride from point A to\npoint B",
+  "id": "explain-and-show-how-uber-website",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 5415315699,
+  "duration": 5608005793,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 9,
-  "name": "1.Valid user with valid password",
-  "description": "",
-  "id": "spree-login-functionality;1.valid-user-with-valid-password",
+  "line": 4,
+  "name": "",
+  "description": "User will get his ride estimation",
+  "id": "explain-and-show-how-uber-website;",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 10,
-  "name": "Not a validated user",
+  "line": 6,
+  "name": "User have no result",
   "keyword": "Given "
 });
 formatter.step({
+  "line": 7,
+  "name": "User browse to the Uber ride estimation page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "Uber ride estimation  page should display",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "User enter pick up location as \"19 Cornish st ,Staten Island NY \"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "User enter drop off location as \" 220 Riverside blvd , New York NY\"",
+  "keyword": "And "
+});
+formatter.step({
   "line": 11,
-  "name": "User browse to the site",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 12,
-  "name": "Spree home page should display",
+  "name": "Uber price estimator table  should display",
   "keyword": "Then "
-});
-formatter.step({
-  "line": 13,
-  "name": "User click login link",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 15,
-  "name": "User enter user email as \"shiftqa1@gmail.com\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 16,
-  "name": "User enter password as \"shiftedtech\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 17,
-  "name": "User click login button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 18,
-  "name": "Home page should display",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 19,
-  "name": "Login success message display",
-  "keyword": "And "
 });
 formatter.match({
-  "location": "StepDef1.not_a_validated_user()"
+  "location": "UberSteps.userHaveNoResult()"
 });
 formatter.result({
-  "duration": 279505773,
+  "duration": 252781502,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDef1.user_browse_to_the_site()"
+  "location": "UberSteps.userBrowseToTheUberRideEstimationPage()"
 });
 formatter.result({
-  "duration": 3083420889,
+  "duration": 4696661311,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDef1.spree_home_page_should_display()"
+  "location": "UberSteps.uberRideEstimationPageShouldDisplay()"
 });
 formatter.result({
-  "duration": 28913975,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDef1.user_click_login_link()"
-});
-formatter.result({
-  "duration": 1029861726,
+  "duration": 15410080,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "shiftqa1@gmail.com",
-      "offset": 26
+      "val": "19 Cornish st ,Staten Island NY ",
+      "offset": 32
     }
   ],
-  "location": "StepDef1.userEnterUserEmailAs(String)"
+  "location": "UberSteps.userEnterPickUpLocationAs(String)"
 });
 formatter.result({
-  "duration": 523400198,
+  "duration": 2716227156,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "shiftedtech",
-      "offset": 24
+      "val": " 220 Riverside blvd , New York NY",
+      "offset": 33
     }
   ],
-  "location": "StepDef1.userEnterPasswordAs(String)"
+  "location": "UberSteps.userEnterDropOffLocationAs(String)"
 });
 formatter.result({
-  "duration": 149700009,
+  "duration": 10932685048,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDef1.user_click_login_button()"
+  "location": "UberSteps.uberPriceEstimatorTableShouldDisplay()"
 });
 formatter.result({
-  "duration": 1554245201,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDef1.home_page_should_display()"
-});
-formatter.result({
-  "duration": 14773443,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDef1.login_success_message_display()"
-});
-formatter.result({
-  "duration": 114619569,
+  "duration": 83020105,
   "status": "passed"
 });
 formatter.after({
-  "duration": 195805535,
+  "duration": 168906548,
   "status": "passed"
 });
 });

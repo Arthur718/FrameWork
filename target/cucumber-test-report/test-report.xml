@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.389562">
-<testcase classname="Spree login functionality" name="1.Valid user with valid password" time="12.389562">
-<system-out><![CDATA[Given Not a validated user..................................................passed
-When User browse to the site................................................passed
-Then Spree home page should display.........................................passed
-When User click login link..................................................passed
-When User enter user email as "shiftqa1@gmail.com"..........................passed
-And User enter password as "shiftedtech"....................................passed
-Then User click login button................................................passed
-Then Home page should display...............................................passed
-And Login success message display...........................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.473698">
+<testcase classname="Explain and Show how Uber WebSite" name="" time="24.473698">
+<system-out><![CDATA[Given User have no result...................................................passed
+When User browse to the Uber ride estimation page...........................passed
+Then Uber ride estimation  page should display..............................passed
+Then User enter pick up location as "19 Cornish st ,Staten Island NY "......passed
+And User enter drop off location as " 220 Riverside blvd , New York NY".....passed
+Then Uber price estimator table  should display.............................passed
 ]]></system-out>
 </testcase>
 </testsuite>

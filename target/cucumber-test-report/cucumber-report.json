@@ -1,12 +1,12 @@
 [
   {
-    "line": 3,
+    "line": 1,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 5415315699,
+              "duration": 5608005793,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 9,
-        "name": "1.Valid user with valid password",
-        "description": "",
-        "id": "spree-login-functionality;1.valid-user-with-valid-password",
+        "line": 4,
+        "name": "",
+        "description": "User will get his ride estimation",
+        "id": "explain-and-show-how-uber-website;",
         "after": [
           {
             "result": {
-              "duration": 195805535,
+              "duration": 168906548,
               "status": "passed"
             },
             "match": {
@@ -34,131 +34,95 @@
         "steps": [
           {
             "result": {
-              "duration": 279505773,
+              "duration": 252781502,
               "status": "passed"
             },
-            "line": 10,
-            "name": "Not a validated user",
+            "line": 6,
+            "name": "User have no result",
             "match": {
-              "location": "StepDef1.not_a_validated_user()"
+              "location": "UberSteps.userHaveNoResult()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3083420889,
+              "duration": 4696661311,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User browse to the Uber ride estimation page",
+            "match": {
+              "location": "UberSteps.userBrowseToTheUberRideEstimationPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15410080,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Uber ride estimation  page should display",
+            "match": {
+              "location": "UberSteps.uberRideEstimationPageShouldDisplay()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2716227156,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter pick up location as \"19 Cornish st ,Staten Island NY \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "19 Cornish st ,Staten Island NY ",
+                  "offset": 32
+                }
+              ],
+              "location": "UberSteps.userEnterPickUpLocationAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10932685048,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter drop off location as \" 220 Riverside blvd , New York NY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " 220 Riverside blvd , New York NY",
+                  "offset": 33
+                }
+              ],
+              "location": "UberSteps.userEnterDropOffLocationAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83020105,
               "status": "passed"
             },
             "line": 11,
-            "name": "User browse to the site",
+            "name": "Uber price estimator table  should display",
             "match": {
-              "location": "StepDef1.user_browse_to_the_site()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 28913975,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Spree home page should display",
-            "match": {
-              "location": "StepDef1.spree_home_page_should_display()"
+              "location": "UberSteps.uberPriceEstimatorTableShouldDisplay()"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1029861726,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "User click login link",
-            "match": {
-              "location": "StepDef1.user_click_login_link()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 523400198,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User enter user email as \"shiftqa1@gmail.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "shiftqa1@gmail.com",
-                  "offset": 26
-                }
-              ],
-              "location": "StepDef1.userEnterUserEmailAs(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 149700009,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User enter password as \"shiftedtech\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "shiftedtech",
-                  "offset": 24
-                }
-              ],
-              "location": "StepDef1.userEnterPasswordAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1554245201,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User click login button",
-            "match": {
-              "location": "StepDef1.user_click_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 14773443,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Home page should display",
-            "match": {
-              "location": "StepDef1.home_page_should_display()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 114619569,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "Login success message display",
-            "match": {
-              "location": "StepDef1.login_success_message_display()"
-            },
-            "keyword": "And "
           }
         ]
       }
     ],
-    "name": "Spree login functionality",
-    "description": "This explain how verious login functionality will work\nOnly valid user should be able to login\n1. Valid user with valid password can login\n2. Invalid user or invalid password can not login",
-    "id": "spree-login-functionality",
+    "name": "Explain and Show how Uber WebSite",
+    "description": "cululate a price for a ride from point A to\npoint B",
+    "id": "explain-and-show-how-uber-website",
     "keyword": "Feature",
-    "uri": "/Users/arthur/arthur718/src/test/Res/CucomOne"
+    "uri": "/Users/arthur/arthur718/src/test/Res/Uber"
   }
 ]

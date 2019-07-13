@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.473698">
-<testcase classname="Explain and Show how Uber WebSite" name="" time="24.473698">
-<system-out><![CDATA[Given User have no result...................................................passed
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="27.090518">
+<testcase classname="Explain and Show how Uber WebSite" name="" time="27.090518">
+<failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.ae.af div.dotcom-price-estimator.ba.bb.bc.bd.be.bf.bg.bh.bi.ae.rd.bl.re.bn.bo.bp.bq.rf.bs.rg.bu.rh.bw.lu.by:nth-child(2) div.bq.bz.c0 div.sd.ec.cs.fz.g0.vd.fa.ej.g2.da.ve.g4.fv.g6.g7.vf div.c3.fi.vg div.vh.vi.c3.c4.ok.vj.vk.vl div.be &gt; h3.wk.zl.zm.zn.gu.bf.u8.u6.lh.li.hl.ff.gw.gv.l1.ke.te&quot;}&#10;  (Session info: chrome=75.0.3770.100)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Arthurs-Air', ip: '2604:2000:1601:8624:0:0:0:f97%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_211'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: /var/folders/82/5dp6rk595zx...}, goog:chromeOptions: {debuggerAddress: localhost:59185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 182e388396a79faa638837a9ddc1e406&#10;*** Element info: {Using=css selector, value=div.ae.af div.dotcom-price-estimator.ba.bb.bc.bd.be.bf.bg.bh.bi.ae.rd.bl.re.bn.bo.bp.bq.rf.bs.rg.bu.rh.bw.lu.by:nth-child(2) div.bq.bz.c0 div.sd.ec.cs.fz.g0.vd.fa.ej.g2.da.ve.g4.fv.g6.g7.vf div.c3.fi.vg div.vh.vi.c3.c4.ok.vj.vk.vl div.be &gt; h3.wk.zl.zm.zn.gu.bf.u8.u6.lh.li.hl.ff.gw.gv.l1.ke.te}&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)&#10;&#9;at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#10;&#9;at StepDef.UberSteps.uberPriceEstimatorTableShouldDisplay(UberSteps.java:94)&#10;&#9;at ✽.Then Uber price estimator table  should display(/Users/arthur/arthur718/src/test/Res/Uber:11)&#10;"><![CDATA[Given User have no result...................................................passed
 When User browse to the Uber ride estimation page...........................passed
 Then Uber ride estimation  page should display..............................passed
 Then User enter pick up location as "19 Cornish st ,Staten Island NY "......passed
 And User enter drop off location as " 220 Riverside blvd , New York NY".....passed
-Then Uber price estimator table  should display.............................passed
-]]></system-out>
+Then Uber price estimator table  should display.............................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.ae.af div.dotcom-price-estimator.ba.bb.bc.bd.be.bf.bg.bh.bi.ae.rd.bl.re.bn.bo.bp.bq.rf.bs.rg.bu.rh.bw.lu.by:nth-child(2) div.bq.bz.c0 div.sd.ec.cs.fz.g0.vd.fa.ej.g2.da.ve.g4.fv.g6.g7.vf div.c3.fi.vg div.vh.vi.c3.c4.ok.vj.vk.vl div.be > h3.wk.zl.zm.zn.gu.bf.u8.u6.lh.li.hl.ff.gw.gv.l1.ke.te"}
+  (Session info: chrome=75.0.3770.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Arthurs-Air', ip: '2604:2000:1601:8624:0:0:0:f97%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: /var/folders/82/5dp6rk595zx...}, goog:chromeOptions: {debuggerAddress: localhost:59185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 182e388396a79faa638837a9ddc1e406
+*** Element info: {Using=css selector, value=div.ae.af div.dotcom-price-estimator.ba.bb.bc.bd.be.bf.bg.bh.bi.ae.rd.bl.re.bn.bo.bp.bq.rf.bs.rg.bu.rh.bw.lu.by:nth-child(2) div.bq.bz.c0 div.sd.ec.cs.fz.g0.vd.fa.ej.g2.da.ve.g4.fv.g6.g7.vf div.c3.fi.vg div.vh.vi.c3.c4.ok.vj.vk.vl div.be > h3.wk.zl.zm.zn.gu.bf.u8.u6.lh.li.hl.ff.gw.gv.l1.ke.te}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at StepDef.UberSteps.uberPriceEstimatorTableShouldDisplay(UberSteps.java:94)
+	at ✽.Then Uber price estimator table  should display(/Users/arthur/arthur718/src/test/Res/Uber:11)
+]]></failure>
 </testcase>
 </testsuite>

@@ -48,7 +48,7 @@ public class UberSteps  extends StepBase{
         WebElement done = driver.findElement(By.name("pickup"));
         done.sendKeys(pointA);
         //WebDriverWait wait = new WebDriverWait(driver,30);
-        delay(2000);
+        delay(3000);
 
         //WebDriverWait wait = new WebDriverWait(driver,30);
         //wait.until(ExpectedConditions.presenceOfElementLocated((By.name(String.valueOf(pointA)))));
@@ -86,11 +86,18 @@ delay(8000);
         WebDriverWait wait1 =new WebDriverWait(driver,30);
         //wait1.until(ExpectedConditions.presenceOfElementLocated(By.xpath(//span[@class='zc l9 zd k6 be ze h0 zf b5 hj hr g3 gp l4 ub zg'])));
            //wait1.wait();
-     wait1.getClass();
-        WebElement chart = driver.findElement(By.xpath("//span[@class='zc l9 zd k6 be ze h0 zf b5 hj hr g3 gp l4 ub zg']"));
-         chart.getText();
+         //wait1.getClass();
+
+        //@FindBy(name = "Your options");
+               // WebElement chart ;
+
+        WebElement chart = driver.findElement(By.cssSelector("div.ae.af div.dotcom-price-estimator.ba.bb.bc.bd.be.bf.bg.bh.bi.ae.rd.bl.re.bn.bo.bp.bq.rf.bs.rg.bu.rh.bw.lu.by:nth-child(2) div.bq.bz.c0 div.sd.ec.cs.fz.g0.vd.fa.ej.g2.da.ve.g4.fv.g6.g7.vf div.c3.fi.vg div.vh.vi.c3.c4.ok.vj.vk.vl div.be > h3.wk.zl.zm.zn.gu.bf.u8.u6.lh.li.hl.ff.gw.gv.l1.ke.te"));
+          wait1.getClass();
+         delay(3000);
+
+        chart.getText();
        String tabele = chart.getText();
-        Assert.assertEquals("Popular rides",tabele);
+        Assert.assertEquals("Your options",tabele);
 
     }
 }

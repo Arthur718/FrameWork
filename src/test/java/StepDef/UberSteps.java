@@ -9,7 +9,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class UberSteps  extends StepBase{
 
@@ -48,7 +47,7 @@ public class UberSteps  extends StepBase{
         WebElement done = driver.findElement(By.name("pickup"));
         done.sendKeys(pointA);
         //WebDriverWait wait = new WebDriverWait(driver,30);
-        delay(3000);
+        delay(5000);
 
         //WebDriverWait wait = new WebDriverWait(driver,30);
         //wait.until(ExpectedConditions.presenceOfElementLocated((By.name(String.valueOf(pointA)))));
@@ -69,7 +68,7 @@ public class UberSteps  extends StepBase{
         done1.sendKeys(pointB);
        //WebDriverWait wait1 =new WebDriverWait(driver,10);
         //wait1.until(ExpectedConditions.presenceOfElementLocated(By.name(pointB)));
-delay(2000);
+delay(5000);
         Actions actions2= new Actions(driver);
         Actions actions3= actions2.sendKeys(Keys.ENTER);
         actions3.perform();
@@ -83,7 +82,8 @@ delay(8000);
 
     @Then("Uber price estimator table  should display")
     public void uberPriceEstimatorTableShouldDisplay() {
-        WebDriverWait wait1 =new WebDriverWait(driver,30);
+
+        //WebDriverWait wait1 =new WebDriverWait(driver,30);
         //wait1.until(ExpectedConditions.presenceOfElementLocated(By.xpath(//span[@class='zc l9 zd k6 be ze h0 zf b5 hj hr g3 gp l4 ub zg'])));
            //wait1.wait();
          //wait1.getClass();
@@ -91,13 +91,11 @@ delay(8000);
         //@FindBy(name = "Your options");
                // WebElement chart ;
 
-        WebElement chart = driver.findElement(By.cssSelector("div.ae.af div.dotcom-price-estimator.ba.bb.bc.bd.be.bf.bg.bh.bi.ae.rd.bl.re.bn.bo.bp.bq.rf.bs.rg.bu.rh.bw.lu.by:nth-child(2) div.bq.bz.c0 div.sd.ec.cs.fz.g0.vd.fa.ej.g2.da.ve.g4.fv.g6.g7.vf div.c3.fi.vg div.vh.vi.c3.c4.ok.vj.vk.vl div.be > h3.wk.zl.zm.zn.gu.bf.u8.u6.lh.li.hl.ff.gw.gv.l1.ke.te"));
-          wait1.getClass();
-         delay(3000);
+        WebElement opt = driver.findElement(By.xpath("//div[@class='be']"));
 
-        chart.getText();
-       String tabele = chart.getText();
-        Assert.assertEquals("Your options",tabele);
+        String val = opt.getText();
+
+        Assert.assertTrue("Your options",val.contains("Your options"));
 
     }
 }

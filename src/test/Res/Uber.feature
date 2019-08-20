@@ -1,6 +1,9 @@
+@Uber
+
 Feature: Explain and Show how Uber WebSite
   cululate a price for a ride from point A to
   point B
+
   Scenario:
     User will get his ride estimation
     Given User have no result

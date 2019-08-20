@@ -4,7 +4,9 @@ import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LyftBase {
@@ -24,6 +26,9 @@ public class LyftBase {
 
         driver.get("https://www.lyft.com/");
 
+
+
+
     }
 
 
@@ -34,6 +39,26 @@ public class LyftBase {
 
     }
 
+
+
+
+
+    public void scrollToElement(WebElement element){
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+
+
+    public void highlight(WebElement element) {
+        for (int i = 0; i < 3; i++) {
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("arguments[0].setAttribute('style', arguments[1]);", element, "border: 5px solid red;");
+             delay(200);
+            js.executeScript(
+                    "arguments[0].setAttribute('style', arguments[1]);",
+                    element, "");
+               delay(2000);
+        }
+    }
 
 
 

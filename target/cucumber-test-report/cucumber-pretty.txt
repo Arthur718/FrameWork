@@ -1,8 +1,22 @@
+@Lyft
+Feature: Lyft test
+
+  Scenario: User will get his ride estimation                              [90m# Lyft1.feature:5[0m
+    [32mGiven [0m[32mUser have no resulet[0m                                             [90m# LyftStepS.user_have_no_resulet()[0m
+    [32mWhen [0m[32mUser browse to the Lyft Home page  WebSite[0m                        [90m# LyftStepS.user_browse_to_the_Lyft_Home_page_WebSite()[0m
+    [32mThen [0m[32mLyft Home page ride  should display[0m                               [90m# LyftStepS.lyft_Home_page_ride_should_display()[0m
+    [32mThen [0m[32mUser click on Rider link button[0m                                   [90m# LyftStepS.user_click_on_Rider_link_button()[0m
+    [32mAnd [0m[32mLyft Rider page ride  should display[0m                               [90m# LyftStepS.lyft_Rider_page_ride_should_display()[0m
+    [32mThen [0m[32mUser enter pick up Location as "[0m[32m[1m19 Cornish St , Staten Island NY[0m[32m"[0m [90m# LyftStepS.user_enter_pick_up_Location_as(String)[0m
+    [32mAnd [0m[32mUser enter drop off Location as "[0m[32m[1m220 Riverside blvd , New York NY[0m[32m"[0m [90m# LyftStepS.user_enter_drop_off_Location_as(String)[0m
+    [32mAnd [0m[32mUser click on Get Estimate button[0m                                  [90m# LyftStepS.user_click_on_Get_Estimate_button()[0m
+    [32mThen [0m[32mLyft price estimator table  should display[0m                        [90m# LyftStepS.lyft_price_estimator_table_should_display()[0m
+@Uber
 Feature: Explain and Show how Uber WebSite
   cululate a price for a ride from point A to
   point B
 
-  Scenario:                                                                 [90m# /Users/arthur/arthur718/src/test/Res/Uber:4[0m
+  Scenario:                                                                 [90m# Uber.feature:7[0m
     User will get his ride estimation
 
     [32mGiven [0m[32mUser have no result[0m                                               [90m# UberSteps.userHaveNoResult()[0m

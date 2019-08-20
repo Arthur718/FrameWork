@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import utils.WebElementUtils;
 
 public class UberSteps  extends StepBase{
 
@@ -17,6 +18,7 @@ public class UberSteps  extends StepBase{
     public void userHaveNoResult() {
         driver.manage().deleteAllCookies();
     }
+
     @When("User browse to the Uber ride estimation page")
     public void userBrowseToTheUberRideEstimationPage() {
 
@@ -45,16 +47,17 @@ public class UberSteps  extends StepBase{
         //WebDriverWait wait = new WebDriverWait(driver,30);
         //wait.until(ExpectedConditions.presenceOfElementLocated((By.name(String.valueOf(pointA)))));
         WebElement done = driver.findElement(By.name("pickup"));
+        delay(2000);
         done.sendKeys(pointA);
         //WebDriverWait wait = new WebDriverWait(driver,30);
-        delay(5000);
+        delay(8000);
 
         //WebDriverWait wait = new WebDriverWait(driver,30);
         //wait.until(ExpectedConditions.presenceOfElementLocated((By.name(String.valueOf(pointA)))));
         Actions actions= new Actions(driver);
         Actions actions1=actions.sendKeys(Keys.ENTER);
         actions1.perform();
-        
+        delay(5000);
     }
 
     @And("User enter drop off location as \"([^\"]*)\"$")
@@ -68,11 +71,11 @@ public class UberSteps  extends StepBase{
         done1.sendKeys(pointB);
        //WebDriverWait wait1 =new WebDriverWait(driver,10);
         //wait1.until(ExpectedConditions.presenceOfElementLocated(By.name(pointB)));
-delay(5000);
+delay(8000);
         Actions actions2= new Actions(driver);
         Actions actions3= actions2.sendKeys(Keys.ENTER);
         actions3.perform();
-delay(8000);
+delay(5000);
 
 
 
@@ -91,7 +94,11 @@ delay(8000);
         //@FindBy(name = "Your options");
                // WebElement chart ;
 
-        WebElement opt = driver.findElement(By.xpath("//div[@class='be']"));
+        WebElement opt = driver.findElement(By.xpath("//h3[contains(text(),'Your options')]"));
+
+        WebElementUtils webElementUtils = new WebElementUtils(driver);
+        webElementUtils.scrollToElement(opt);
+        webElementUtils.highlight(opt);
 
         String val = opt.getText();
 

@@ -1,12 +1,12 @@
 [
   {
-    "line": 1,
+    "line": 3,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 5128162516,
+              "duration": 5214559007,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "",
-        "description": "User will get his ride estimation",
-        "id": "explain-and-show-how-uber-website;",
+        "line": 5,
+        "name": "User will get his ride estimation",
+        "description": "",
+        "id": "lyft-test;user-will-get-his-ride-estimation",
         "after": [
           {
             "result": {
-              "duration": 250897816,
+              "duration": 239997992,
               "status": "passed"
             },
             "match": {
@@ -34,10 +34,178 @@
         "steps": [
           {
             "result": {
-              "duration": 261191057,
+              "duration": 719906607,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
+            "name": "User have no resulet",
+            "match": {
+              "location": "LyftStepS.user_have_no_resulet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2767312445,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User browse to the Lyft Home page  WebSite",
+            "match": {
+              "location": "LyftStepS.user_browse_to_the_Lyft_Home_page_WebSite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 420555007,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Lyft Home page ride  should display",
+            "match": {
+              "location": "LyftStepS.lyft_Home_page_ride_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2026237434,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on Rider link button",
+            "match": {
+              "location": "LyftStepS.user_click_on_Rider_link_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57275071,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Lyft Rider page ride  should display",
+            "match": {
+              "location": "LyftStepS.lyft_Rider_page_ride_should_display()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1357925702,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter pick up Location as \"19 Cornish St , Staten Island NY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "19 Cornish St , Staten Island NY",
+                  "offset": 32
+                }
+              ],
+              "location": "LyftStepS.user_enter_pick_up_Location_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2806636070,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter drop off Location as \"220 Riverside blvd , New York NY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "220 Riverside blvd , New York NY",
+                  "offset": 33
+                }
+              ],
+              "location": "LyftStepS.user_enter_drop_off_Location_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2151332469,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on Get Estimate button",
+            "match": {
+              "location": "LyftStepS.user_click_on_Get_Estimate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6769369487,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Lyft price estimator table  should display",
+            "match": {
+              "location": "LyftStepS.lyft_price_estimator_table_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Lyft test",
+    "description": "",
+    "id": "lyft-test",
+    "keyword": "Feature",
+    "uri": "Lyft1.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Lyft"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1779395847,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.setUP()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "",
+        "description": "User will get his ride estimation",
+        "id": "explain-and-show-how-uber-website;",
+        "after": [
+          {
+            "result": {
+              "duration": 199044593,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12597339,
+              "status": "passed"
+            },
+            "line": 9,
             "name": "User have no result",
             "match": {
               "location": "UberSteps.userHaveNoResult()"
@@ -46,10 +214,10 @@
           },
           {
             "result": {
-              "duration": 6590669671,
+              "duration": 4900366711,
               "status": "passed"
             },
-            "line": 7,
+            "line": 10,
             "name": "User browse to the Uber ride estimation page",
             "match": {
               "location": "UberSteps.userBrowseToTheUberRideEstimationPage()"
@@ -58,10 +226,10 @@
           },
           {
             "result": {
-              "duration": 15681482,
+              "duration": 26499522,
               "status": "passed"
             },
-            "line": 8,
+            "line": 11,
             "name": "Uber ride estimation  page should display",
             "match": {
               "location": "UberSteps.uberRideEstimationPageShouldDisplay()"
@@ -70,10 +238,10 @@
           },
           {
             "result": {
-              "duration": 5831426471,
+              "duration": 15903259226,
               "status": "passed"
             },
-            "line": 9,
+            "line": 12,
             "name": "User enter pick up location as \"19 Cornish st ,Staten Island NY \"",
             "match": {
               "arguments": [
@@ -88,10 +256,10 @@
           },
           {
             "result": {
-              "duration": 13637832879,
+              "duration": 13738182047,
               "status": "passed"
             },
-            "line": 10,
+            "line": 13,
             "name": "User enter drop off location as \" 220 Riverside blvd , New York NY\"",
             "match": {
               "arguments": [
@@ -106,10 +274,10 @@
           },
           {
             "result": {
-              "duration": 110804557,
+              "duration": 6838052235,
               "status": "passed"
             },
-            "line": 11,
+            "line": 14,
             "name": "Uber price estimator table  should display",
             "match": {
               "location": "UberSteps.uberPriceEstimatorTableShouldDisplay()"
@@ -123,6 +291,12 @@
     "description": "cululate a price for a ride from point A to\npoint B",
     "id": "explain-and-show-how-uber-website",
     "keyword": "Feature",
-    "uri": "/Users/arthur/arthur718/src/test/Res/Uber"
+    "uri": "Uber.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Uber"
+      }
+    ]
   }
 ]

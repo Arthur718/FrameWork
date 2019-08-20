@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 public class LyftPageBase {
 
 
-    protected WebDriver driver;
+    protected WebDriver driver = null;
 
     public LyftPageBase(WebDriver driver) {
         this.driver = driver;

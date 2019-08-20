@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.826666">
-<testcase classname="Explain and Show how Uber WebSite" name="" time="31.826666">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="67.928505">
+<testcase classname="Lyft test" name="User will get his ride estimation" time="24.531107">
+<system-out><![CDATA[Given User have no resulet..................................................passed
+When User browse to the Lyft Home page  WebSite.............................passed
+Then Lyft Home page ride  should display....................................passed
+Then User click on Rider link button........................................passed
+And Lyft Rider page ride  should display....................................passed
+Then User enter pick up Location as "19 Cornish St , Staten Island NY"......passed
+And User enter drop off Location as "220 Riverside blvd , New York NY"......passed
+And User click on Get Estimate button.......................................passed
+Then Lyft price estimator table  should display.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Explain and Show how Uber WebSite" name="" time="43.397398">
 <system-out><![CDATA[Given User have no result...................................................passed
 When User browse to the Uber ride estimation page...........................passed
 Then Uber ride estimation  page should display..............................passed

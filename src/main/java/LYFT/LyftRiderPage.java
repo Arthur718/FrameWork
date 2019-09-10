@@ -25,7 +25,8 @@ public class LyftRiderPage  {
 
 
 
-    public void enterPickup (String pickupaddress){
+
+   public void enterPickup (String pickupaddress){
 
 
         pickup.sendKeys(pickupaddress);
@@ -39,6 +40,9 @@ public class LyftRiderPage  {
 
 
     }
+
+
+
     public  void clickOnEstimateButton(){
         estimatebutton.click();
 

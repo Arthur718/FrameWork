@@ -23,7 +23,7 @@ public class LyftBase {
     public void setDriver() {
 
         driver = new ChromeDriver();
-
+        driver.manage().window().maximize();
         driver.get("https://www.lyft.com/");
 
 

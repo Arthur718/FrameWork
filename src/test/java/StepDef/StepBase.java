@@ -7,6 +7,7 @@ public class StepBase {
     protected WebDriver driver = DriverFactory.getInstance().getDriver();
 
 
+
     public void delay(int time) {
 
         try {

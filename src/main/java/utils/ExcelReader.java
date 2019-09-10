@@ -152,6 +152,8 @@ public class ExcelReader {
         return data;
     }
 
+
+
     /**
      * Get all the data from specified excel file and create an two dimensional array
      * @param sheetName
@@ -244,6 +246,29 @@ public class ExcelReader {
         }
         return data;
     }
+    public  int getRowCount (String sheetName){
+        int index = workbook.getSheetIndex(sheetName);
+        if (index ==1)
+            return 0;
+        else {
+         Sheet sheet =workbook.getSheetAt(index);
+            int number =sheet.getLastRowNum()+1;
+            return number;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /**
      * Helper method to get the data based on the value type from cell

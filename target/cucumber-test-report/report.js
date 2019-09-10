@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5214559007,
+  "duration": 5989151492,
   "status": "passed"
 });
 formatter.scenario({
@@ -73,35 +73,35 @@ formatter.match({
   "location": "LyftStepS.user_have_no_resulet()"
 });
 formatter.result({
-  "duration": 719906607,
+  "duration": 144548200,
   "status": "passed"
 });
 formatter.match({
   "location": "LyftStepS.user_browse_to_the_Lyft_Home_page_WebSite()"
 });
 formatter.result({
-  "duration": 2767312445,
+  "duration": 3185711968,
   "status": "passed"
 });
 formatter.match({
   "location": "LyftStepS.lyft_Home_page_ride_should_display()"
 });
 formatter.result({
-  "duration": 420555007,
+  "duration": 144777108,
   "status": "passed"
 });
 formatter.match({
   "location": "LyftStepS.user_click_on_Rider_link_button()"
 });
 formatter.result({
-  "duration": 2026237434,
+  "duration": 2240399167,
   "status": "passed"
 });
 formatter.match({
   "location": "LyftStepS.lyft_Rider_page_ride_should_display()"
 });
 formatter.result({
-  "duration": 57275071,
+  "duration": 72275851,
   "status": "passed"
 });
 formatter.match({
@@ -114,7 +114,7 @@ formatter.match({
   "location": "LyftStepS.user_enter_pick_up_Location_as(String)"
 });
 formatter.result({
-  "duration": 1357925702,
+  "duration": 1344467825,
   "status": "passed"
 });
 formatter.match({
@@ -127,25 +127,25 @@ formatter.match({
   "location": "LyftStepS.user_enter_drop_off_Location_as(String)"
 });
 formatter.result({
-  "duration": 2806636070,
+  "duration": 2701686068,
   "status": "passed"
 });
 formatter.match({
   "location": "LyftStepS.user_click_on_Get_Estimate_button()"
 });
 formatter.result({
-  "duration": 2151332469,
+  "duration": 2155954001,
   "status": "passed"
 });
 formatter.match({
   "location": "LyftStepS.lyft_price_estimator_table_should_display()"
 });
 formatter.result({
-  "duration": 6769369487,
+  "duration": 6790420374,
   "status": "passed"
 });
 formatter.after({
-  "duration": 239997992,
+  "duration": 222225404,
   "status": "passed"
 });
 formatter.uri("Uber.feature");
@@ -163,7 +163,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 1779395847,
+  "duration": 1927383757,
   "status": "passed"
 });
 formatter.scenario({
@@ -208,21 +208,21 @@ formatter.match({
   "location": "UberSteps.userHaveNoResult()"
 });
 formatter.result({
-  "duration": 12597339,
+  "duration": 8903955,
   "status": "passed"
 });
 formatter.match({
   "location": "UberSteps.userBrowseToTheUberRideEstimationPage()"
 });
 formatter.result({
-  "duration": 4900366711,
+  "duration": 4656812443,
   "status": "passed"
 });
 formatter.match({
   "location": "UberSteps.uberRideEstimationPageShouldDisplay()"
 });
 formatter.result({
-  "duration": 26499522,
+  "duration": 27826108,
   "status": "passed"
 });
 formatter.match({
@@ -235,7 +235,7 @@ formatter.match({
   "location": "UberSteps.userEnterPickUpLocationAs(String)"
 });
 formatter.result({
-  "duration": 15903259226,
+  "duration": 15693655200,
   "status": "passed"
 });
 formatter.match({
@@ -248,18 +248,18 @@ formatter.match({
   "location": "UberSteps.userEnterDropOffLocationAs(String)"
 });
 formatter.result({
-  "duration": 13738182047,
+  "duration": 13502478064,
   "status": "passed"
 });
 formatter.match({
   "location": "UberSteps.uberPriceEstimatorTableShouldDisplay()"
 });
 formatter.result({
-  "duration": 6838052235,
+  "duration": 6862176052,
   "status": "passed"
 });
 formatter.after({
-  "duration": 199044593,
+  "duration": 182552912,
   "status": "passed"
 });
 });

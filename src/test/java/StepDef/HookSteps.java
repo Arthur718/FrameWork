@@ -9,7 +9,7 @@ public class HookSteps  extends  StepBase{
 
 
         driver = DriverFactory.getInstance().getDriver();
-
+        driver.manage().window().maximize();
         //System.setProperty("webdriver.chrome.driver",
         //System.getProperty("user.dir") +"/driver/chromedriver");
 

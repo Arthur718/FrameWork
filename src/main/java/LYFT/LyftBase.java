@@ -1,5 +1,6 @@
 package LYFT;
-
+import ILyft.OR.iLyftRiderPage ;
+import ILyft.OR.iLyftHomePage;
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.junit.After;
 import org.junit.Before;
@@ -9,7 +10,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class LyftBase {
+
+public class LyftBase implements iLyftHomePage,iLyftRiderPage  {
 
    public WebDriver driver =  null;
 

@@ -197,6 +197,14 @@ public class LyftDD  {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+        WebElement price =  driver.findElement(By.xpath("//tr[1]//td[3]"));
+        String lprice = price.getText();
+        System.out.println("Lyft price " +(data[i][0])+lprice);
+
+
+
+
         driver.navigate().refresh();
 
 

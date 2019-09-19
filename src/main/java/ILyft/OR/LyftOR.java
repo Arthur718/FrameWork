@@ -15,6 +15,7 @@ public class LyftOR  {
         public static  final String dropoff = "name :fare-end";
         public static final String  estimatebutton= "xpath://button[@class='_2ruFd_ _1qRMXN _3z7LES _3b6Vkl _3-LnSL']";
         public static final String riderrypes="xpath://div[@class='_3HFHrT']";
+        public static final  String lyftprice = "xpath://tr[1]//td[3]";
 
 
 

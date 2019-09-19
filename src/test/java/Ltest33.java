@@ -2,6 +2,8 @@ import ILyft.OR.LyftOR;
 import KW.KeywordLibery;
 import LYFT.LyftBase;
 import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 public class Ltest33 extends LyftBase {
@@ -27,7 +29,9 @@ public class Ltest33 extends LyftBase {
         keywordLibery.click(LyftOR.LyftRiderPage.estimatebutton);
         delay(2000);
         keywordLibery.verifyText(LyftOR.LyftRiderPage.riderrypes,"RIDE TYPES");
-
+        WebElement price =  driver.findElement(By.xpath("//tr[1]//td[3]"));
+        String lprice = price.getText();
+        System.out.println("Lyft price " +lprice);
 
     }
 

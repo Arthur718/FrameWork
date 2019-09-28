@@ -38,7 +38,7 @@ public class LyftStepS extends StepBase {
     @Then("^Lyft Rider page ride  should display$")
     public void lyft_Rider_page_ride_should_display()  {
         String titleR = driver.getTitle();
-        Assert.assertEquals("Ride Lyft - Flexible, Fast and 24/7 Transportation | Lyft",titleR);
+        Assert.assertEquals("Ride With Lyft | 9 Options for Every Transportation Need | Lyft",titleR);
 
     }
     @Then("^User enter pick up Location as \"([^\"]*)\"$")

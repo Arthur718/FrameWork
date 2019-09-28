@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90783b98-52d9-46de-93aa-2a5953aaf6d0" name="Default Changelist" comment="New Class Object Repository">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ILyft/OR/LyftOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ILyft/OR/LyftOR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ltest33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ltest33.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LyftDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LyftDD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDef/LyftStepS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDef/LyftStepS.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,11 +34,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LyftDD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="202" column="75" lean-forward="true" selection-start-line="202" selection-start-column="75" selection-end-line="202" selection-end-column="75" />
+            <state relative-caret-position="616">
+              <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Runer/BDDruner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,20 +123,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StepDef/LyftStepS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+            <state relative-caret-position="415">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/KW/KeywordDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -198,7 +199,6 @@
         <option value="$PROJECT_DIR$/src/test/java/LyftStepS.java" />
         <option value="$PROJECT_DIR$/src/main/java/LYFT/LyftStepS.java" />
         <option value="$PROJECT_DIR$/src/test/Res/Lyft.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/StepDef/LyftStepS.java" />
         <option value="$PROJECT_DIR$/src/test/Res/Lyft1" />
         <option value="$PROJECT_DIR$/src/test/Res/Uber" />
         <option value="$PROJECT_DIR$/src/test/java/Runer/BDDruner.java" />
@@ -220,6 +220,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ILyft/OR/LyftOR.java" />
         <option value="$PROJECT_DIR$/src/test/java/Ltest33.java" />
         <option value="$PROJECT_DIR$/src/test/java/LyftDD.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StepDef/LyftStepS.java" />
       </list>
     </option>
   </component>
@@ -417,7 +418,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LyftDD.Lyft333">
+  <component name="RunManager" selected="JUnit.BDDruner">
     <configuration name="All Features in: Res" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/Res" />
@@ -455,6 +456,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BDDruner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arthur718" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runer" />
+      <option name="MAIN_CLASS_NAME" value="Runer.BDDruner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ltest33.LyftInerFaceTast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arthur718" />
       <option name="PACKAGE_NAME" value="" />
@@ -470,16 +486,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Ltest33" />
       <option name="METHOD_NAME" value="LyftOR3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LyftDD.Lyft101" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="arthur718" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LyftDD" />
-      <option name="METHOD_NAME" value="Lyft101" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -509,18 +515,18 @@
       <item itemvalue="Cucumber java.All Features in: Res" />
       <item itemvalue="Cucumber java.Scenario: 1.Valid pick up address and  valid drop off address" />
       <item itemvalue="JUnit.LyftDD.LyftDDPOM" />
-      <item itemvalue="JUnit.LyftDD.Lyft101" />
       <item itemvalue="JUnit.Ltest33.LyftOR3" />
       <item itemvalue="JUnit.Ltest33.LyftInerFaceTast" />
       <item itemvalue="JUnit.LyftDD.Lyft333" />
+      <item itemvalue="JUnit.BDDruner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BDDruner" />
         <item itemvalue="JUnit.LyftDD.Lyft333" />
         <item itemvalue="JUnit.Ltest33.LyftOR3" />
         <item itemvalue="JUnit.Ltest33.LyftInerFaceTast" />
         <item itemvalue="JUnit.LyftDD.LyftDDPOM" />
-        <item itemvalue="JUnit.LyftDD.Lyft101" />
       </list>
     </recent_temporary>
   </component>
@@ -546,15 +552,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Ltest33_LyftOR3 - 2019.09.12 at 17h 11m 04s.xml">
-      <configuration name="Ltest33.LyftOR3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Ltest33_LyftOR3 - 2019.09.12 at 17h 39m 45s.xml">
-      <configuration name="Ltest33.LyftOR3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Ltest33_LyftInerFaceTast - 2019.09.12 at 17h 49m 02s.xml">
-      <configuration name="Ltest33.LyftInerFaceTast" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Ltest33_LyftInerFaceTast - 2019.09.12 at 17h 52m 30s.xml">
       <configuration name="Ltest33.LyftInerFaceTast" configurationId="JUnit" />
     </history-entry>
@@ -576,6 +573,15 @@
     <history-entry file="LyftDD_Lyft333 - 2019.09.18 at 20h 13m 16s.xml">
       <configuration name="LyftDD.Lyft333" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LyftDD_Lyft333 - 2019.09.18 at 20h 18m 11s.xml">
+      <configuration name="LyftDD.Lyft333" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BDDruner - 2019.09.28 at 14h 02m 03s.xml">
+      <configuration name="BDDruner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BDDruner - 2019.09.28 at 14h 05m 10s.xml">
+      <configuration name="BDDruner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -588,7 +594,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49619773" visible="true" weight="0.29613733" />
       <window_info id="Structure" order="1" sideWeight="0.5038023" side_tool="true" weight="0.27682403" />
@@ -703,16 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-644">
           <caret line="156" column="7" lean-forward="true" selection-start-line="156" selection-start-column="7" selection-end-line="156" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Runer/BDDruner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1046,16 +1041,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StepDef/LyftStepS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StepDef/StepBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1089,8 +1074,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LyftDD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="202" column="75" lean-forward="true" selection-start-line="202" selection-start-column="75" selection-end-line="202" selection-end-column="75" />
+        <state relative-caret-position="616">
+          <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDef/LyftStepS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Runer/BDDruner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -22,6 +22,29 @@ Feature: Explain and Show how Uber WebSite
     [32mGiven [0m[32mUser have no result[0m                                               [90m# UberSteps.userHaveNoResult()[0m
     [32mWhen [0m[32mUser browse to the Uber ride estimation page[0m                       [90m# UberSteps.userBrowseToTheUberRideEstimationPage()[0m
     [32mThen [0m[32mUber ride estimation  page should display[0m                          [90m# UberSteps.uberRideEstimationPageShouldDisplay()[0m
-    [32mThen [0m[32mUser enter pick up location as "[0m[32m[1m19 Cornish st ,Staten Island NY [0m[32m"[0m  [90m# UberSteps.userEnterPickUpLocationAs(String)[0m
-    [32mAnd [0m[32mUser enter drop off location as "[0m[32m[1m 220 Riverside blvd , New York NY[0m[32m"[0m [90m# UberSteps.userEnterDropOffLocationAs(String)[0m
-    [32mThen [0m[32mUber price estimator table  should display[0m                         [90m# UberSteps.uberPriceEstimatorTableShouldDisplay()[0m
+    [31mThen [0m[31mUser enter pick up location as "[0m[31m[1m19 Cornish st ,Staten Island NY [0m[31m"[0m  [90m# UberSteps.userEnterPickUpLocationAs(String)[0m
+      [31morg.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+        (Session info: chrome=77.0.3865.90)
+      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'arthurs-air.lan', ip: 'fe80:0:0:0:1c93:5b29:9cec:1647%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/82/5dp6rk595zx...}, goog:chromeOptions: {debuggerAddress: localhost:63818}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: c573dd4fe10869d58fb43ec9f8f7b1e2
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+      	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+      	at StepDef.UberSteps.userEnterPickUpLocationAs(UberSteps.java:51)
+      	at ✽.Then User enter pick up location as "19 Cornish st ,Staten Island NY "(Uber.feature:12)
+      [0m
+    [36mAnd [0m[36mUser enter drop off location as "[0m[36m[1m 220 Riverside blvd , New York NY[0m[36m"[0m [90m# UberSteps.userEnterDropOffLocationAs(String)[0m
+    [36mThen [0m[36mUber price estimator table  should display[0m                         [90m# UberSteps.uberPriceEstimatorTableShouldDisplay()[0m

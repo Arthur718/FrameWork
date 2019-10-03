@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 6562095010,
+  "duration": 7249440947,
   "status": "passed"
 });
 formatter.scenario({
@@ -73,35 +73,35 @@ formatter.match({
   "location": "LyftStepS.user_have_no_resulet()"
 });
 formatter.result({
-  "duration": 313249543,
+  "duration": 531220756,
   "status": "passed"
 });
 formatter.match({
   "location": "LyftStepS.user_browse_to_the_Lyft_Home_page_WebSite()"
 });
 formatter.result({
-  "duration": 3192689615,
+  "duration": 3082517222,
   "status": "passed"
 });
 formatter.match({
   "location": "LyftStepS.lyft_Home_page_ride_should_display()"
 });
 formatter.result({
-  "duration": 85394622,
+  "duration": 40038083,
   "status": "passed"
 });
 formatter.match({
   "location": "LyftStepS.user_click_on_Rider_link_button()"
 });
 formatter.result({
-  "duration": 5432861795,
+  "duration": 2790698597,
   "status": "passed"
 });
 formatter.match({
   "location": "LyftStepS.lyft_Rider_page_ride_should_display()"
 });
 formatter.result({
-  "duration": 63445390,
+  "duration": 76901461,
   "status": "passed"
 });
 formatter.match({
@@ -114,7 +114,7 @@ formatter.match({
   "location": "LyftStepS.user_enter_pick_up_Location_as(String)"
 });
 formatter.result({
-  "duration": 1900618953,
+  "duration": 2559748106,
   "status": "passed"
 });
 formatter.match({
@@ -127,25 +127,25 @@ formatter.match({
   "location": "LyftStepS.user_enter_drop_off_Location_as(String)"
 });
 formatter.result({
-  "duration": 2797916057,
+  "duration": 3045742772,
   "status": "passed"
 });
 formatter.match({
   "location": "LyftStepS.user_click_on_Get_Estimate_button()"
 });
 formatter.result({
-  "duration": 2157414703,
+  "duration": 2224512061,
   "status": "passed"
 });
 formatter.match({
   "location": "LyftStepS.lyft_price_estimator_table_should_display()"
 });
 formatter.result({
-  "duration": 7051758852,
+  "duration": 6841509529,
   "status": "passed"
 });
 formatter.after({
-  "duration": 364482618,
+  "duration": 333800958,
   "status": "passed"
 });
 formatter.uri("Uber.feature");
@@ -163,7 +163,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2169262341,
+  "duration": 2403401585,
   "status": "passed"
 });
 formatter.scenario({
@@ -208,21 +208,21 @@ formatter.match({
   "location": "UberSteps.userHaveNoResult()"
 });
 formatter.result({
-  "duration": 11688964,
+  "duration": 12603996,
   "status": "passed"
 });
 formatter.match({
   "location": "UberSteps.userBrowseToTheUberRideEstimationPage()"
 });
 formatter.result({
-  "duration": 5588636756,
+  "duration": 5072808243,
   "status": "passed"
 });
 formatter.match({
   "location": "UberSteps.uberRideEstimationPageShouldDisplay()"
 });
 formatter.result({
-  "duration": 36019492,
+  "duration": 157445115,
   "status": "passed"
 });
 formatter.match({
@@ -235,8 +235,8 @@ formatter.match({
   "location": "UberSteps.userEnterPickUpLocationAs(String)"
 });
 formatter.result({
-  "duration": 2145225114,
-  "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d77.0.3865.90)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027arthurs-air.lan\u0027, ip: \u0027fe80:0:0:0:1c93:5b29:9cec:1647%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/82/5dp6rk595zx...}, goog:chromeOptions: {debuggerAddress: localhost:63818}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: c573dd4fe10869d58fb43ec9f8f7b1e2\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat StepDef.UberSteps.userEnterPickUpLocationAs(UberSteps.java:51)\n\tat ✽.Then User enter pick up location as \"19 Cornish st ,Staten Island NY \"(Uber.feature:12)\n",
+  "duration": 5140896971,
+  "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d77.0.3865.90)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027arthurs-air.lan\u0027, ip: \u0027fe80:0:0:0:1c93:5b29:9cec:1647%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/82/5dp6rk595zx...}, goog:chromeOptions: {debuggerAddress: localhost:56965}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: d946fac39dd6ae0568ff4efe4bd35ea7\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat StepDef.UberSteps.userEnterPickUpLocationAs(UberSteps.java:51)\n\tat ✽.Then User enter pick up location as \"19 Cornish st ,Staten Island NY \"(Uber.feature:12)\n",
   "status": "failed"
 });
 formatter.match({
@@ -258,7 +258,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 182770115,
+  "duration": 228662304,
   "status": "passed"
 });
 });

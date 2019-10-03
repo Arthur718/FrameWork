@@ -47,7 +47,7 @@ public class UberSteps  extends StepBase{
         //WebDriverWait wait = new WebDriverWait(driver,30);
         //wait.until(ExpectedConditions.presenceOfElementLocated((By.name(String.valueOf(pointA)))));
         WebElement done = driver.findElement(By.name("pickup"));
-        delay(2000);
+        delay(5000);
         done.sendKeys(pointA);
         //WebDriverWait wait = new WebDriverWait(driver,30);
         delay(8000);
